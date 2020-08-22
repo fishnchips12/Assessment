@@ -1,37 +1,32 @@
 body {
     padding:0px;
     margin:0px;
-    
-};
+}
 
-.container {
-    width:20px;
-    background-color:red;
-    
-};
+.Login {
+    width:300px;
+    height:400px;
+    background-color:green;
+    margin-right:50px;
+    float:right;
+}
 
-.Iamge_header {
-    width:100px;
-    background-color:red;
-};
+.Left_side {
+    margin-right:400px;
+    height:100vh;
+    max-width:900px;
+    background-color:rgb(233, 233, 233);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(221, 221, 221);
+    margin-left:50px;
+    overflow:hidden;
+   scrollbar-width: none;
+}
 
-.login {
 
-};
 
-.Image {
-
-};
-
-.image_animation {
-
-};
-
-.left_side {
-
-};
-
-.right_side {
-
-}; 
-
+.Left_side img {
+   width:200px;
+   height:200px; 
+}
