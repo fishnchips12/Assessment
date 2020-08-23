@@ -1,6 +1,12 @@
 body {
     padding:0px;
     margin:0px;
+    scrollbar-width: 0;
+}
+
+.Container {
+    overflow:hidden;
+    height:100vh;
 }
 
 .Login {
@@ -8,23 +14,31 @@ body {
     height:400px;
     background-color:green;
     margin-right:50px;
+    margin-top:15vh;
     float:right;
 }
 
 .Left_side {
     margin-right:400px;
-    height:100vh;
     max-width:900px;
     background-color:rgb(233, 233, 233);
     border-style: solid;
     border-width: 2px;
     border-color: rgb(221, 221, 221);
     margin-left:50px;
-    overflow:hidden;
-   scrollbar-width: none;
+    margin-bottom:11500px;
+    scrollbar-width: none;
+    animation: slideIn 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
 }
 
-
+@keyframes slideIn {
+    0% {
+        transform: translateY(-2500px);
+    }
+}
 
 .Left_side img {
    width:200px;
