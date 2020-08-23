@@ -29,10 +29,13 @@ body {
     left:80px;
 }
 
-.IncorrectUser {
+.pusername {
     position:relative;
-
-
+    left:80px;
+    top:15px;
+    color:red;
+    visibility: hidden;
+   
 }
 
 .Login Input {
@@ -55,10 +58,12 @@ body {
     width:192px;
 }
 
-.IncorectPwd {
+.ppassword {
     position:relative;
+    left:80px;
+    bottom:40px;
     color:red;
-
+    visibility: hidden;
 }
 
 .Forgot {
@@ -68,7 +73,7 @@ body {
     
 }
 
-.Login Button {
+.Login button {
     position:relative;
     left:80px;
     top:60px;

@@ -14,13 +14,13 @@
         <div class="Login">
             <img src="Images/Heading.png" width="200px" height="100px">
             <hr>
-            <form name="login" onsubmit="return formInvitation()" method="post">
-                <p id="IncorrectUser" class="IncorrectUser">Incorrect Username</p>
-                <input type="search" placeholder="Username" name="user">
-                <input type="password" placeholder="Password" name="pass">
-                <p id="IncorrectPwd" class="IncorrectPwd">Incorrect Password</p>
+            <form name="login" method="post" id="Form">
+                <p id="usernameIncorrect" class="pusername">Incorrect Username</p>
+                <input type="search" id="Username" placeholder="Username">
+                <input type="password" id="Password" placeholder="Password">
+                <p id="passwordIncorrect" class="ppassword">Incorrect Password</p>
                 <a href="Unlucky.html"><p class="Forgot">Forgot Password</p></a>
-                <button id="signin">Login</button>
+                <button id="signin">Login </button>
             </form>
             <p class="Slogan">Sign in to get the most of Red Bull</p>
         </div>

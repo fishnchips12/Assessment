@@ -1,21 +1,15 @@
-function formInvitation() {
-    var incorrectpwd = document.getElementById("Incorrectpwd");
-    var inccorectUser = document.getElementById("IncorrectUser");
+const Username = document.getElementById("Username");
+const Password = document.getElementById("Password");
+const form = document.getElementById("Form");
+const IncorrectUsername = document.getElementById("usernameIncorrect");
+const IncorrectPassword = document.getElementById("passwordIncorrect");
+
+
+form.addEventListener("submit", (e) => {
+    if (Username.value == null || Password.value == null) {
+        IncorrectUsername.style.visibility="visible";
+        IncorrectPassword.style.visibility="visible";
+        alert("yp");
+    }
     
-    var y = document.forms["login"]["user"].value;
-    var x = document.forms["login"]["pass"].value;
-    if (x == "" || y == "") {
-        
-    }
-    else if (x != "admin" || y != "admin") {
-        alert("You have entered the incorrect password or username");
-    }
-    else {
-        window.location.replace("Home.html");
-    }
-}
-
-function working() {
-    window.open("Home.html");
-
-}
+})
