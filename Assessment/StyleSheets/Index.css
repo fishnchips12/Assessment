@@ -2,45 +2,132 @@ body {
     padding:0px;
     margin:0px;
     scrollbar-width: 0;
+    background-image:url("../Images/Mounat.png");
+    background-size:100% 100%;
 }
 
 .Container {
-    overflow:hidden;
+    overflow:hidden; 
     height:100vh;
 }
 
 .Login {
-    width:300px;
-    height:400px;
-    background-color:green;
-    margin-right:50px;
+    width:350px;
+    height:600px;
+    background-color:rgb(196, 196, 196);
+    margin-right:100px;
     margin-top:15vh;
+    margin-bottom:15vh;
     float:right;
+    border-style: solid;
+    border-width:1px;
+    border-radius:50px;
 }
 
-.Left_side {
-    margin-right:400px;
-    max-width:900px;
-    background-color:rgb(233, 233, 233);
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(221, 221, 221);
-    margin-left:50px;
-    margin-bottom:11500px;
-    scrollbar-width: none;
-    animation: slideIn 30s;
+.Login img {
+    position: relative;
+    left:80px;
+}
+
+.Login p {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.Login Input {
+    width:200px;
+    height:30px;
+}
+
+.Login Input[type=search] {
+    position:relative;
+    left:80px;
+    top:20px;
+    height:37px;
+    
+}
+
+.Login Input[type=password] {
+    position:relative;
+    top:50px;
+    left:80px;
+    width:192px;
+}
+
+.Forgot {
+    position:relative;
+    top:40px;
+    text-align:center;
+}
+
+.Login Button {
+    position:relative;
+    left:80px;
+    top:40px;
+    width:200px;
+    height:40px;
+    background-color:red;
+    cursor: pointer;
+    border-radius:20px;
+}
+
+.Login Button:hover {
+    background-color:rgb(180, 44, 44);
+}
+
+.Slogan {
+    position:relative;
+    top:50px;
+    font-size:30px;
+    text-align:center;
+    padding:10px;
+
+}
+
+.Image_animation {
+    margin-right:65vh;
+    background-color:red;
+}
+
+.SlideX {
+    animation:SlideIn;
+    animation-duration: 100s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     
 }
 
-@keyframes slideIn {
+.SlideY {
+    animation:SlideOut;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+    bottom:3000px;
+}
+
+.Sliding {
+    width:220px;
+    float:left;
+    background-color:rgb(233, 233, 233); 
+    
+}
+
+@keyframes SlideIn {
     0% {
-        transform: translateY(-2500px);
+        transform: translateY(-3000px);
     }
 }
 
-.Left_side img {
-   width:200px;
-   height:200px; 
+@keyframes SlideOut {
+    0% {
+        transform: translateY(3000px);
+    }
+}
+
+.Sliding img {
+   width:150px;
+   height:150px; 
+   margin-top:10px;
+   border-style:solid;
+   border-color: rgb(255, 255, 255);
 }
