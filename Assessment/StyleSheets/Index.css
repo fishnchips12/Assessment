@@ -29,9 +29,10 @@ body {
     left:80px;
 }
 
-.Login p {
-    
-    
+.IncorrectUser {
+    position:relative;
+
+
 }
 
 .Login Input {
@@ -42,29 +43,35 @@ body {
 .Login Input[type=search] {
     position:relative;
     left:80px;
-    top:20px;
+    top:0px;
     height:37px;
     
 }
 
 .Login Input[type=password] {
     position:relative;
-    top:50px;
+    top:30px;
     left:80px;
     width:192px;
 }
 
+.IncorectPwd {
+    position:relative;
+    color:red;
+
+}
+
 .Forgot {
     position:relative;
-    top:40px;
-    text-align:center;
+    top:-10px;
+    left:170px;
     
 }
 
 .Login Button {
     position:relative;
     left:80px;
-    top:40px;
+    top:60px;
     width:200px;
     height:40px;
     background-color:red;
