@@ -29,7 +29,7 @@ body {
     left:80px;
 }
 
-.pusername {
+#usernameIncorrect {
     position:relative;
     left:80px;
     top:15px;
@@ -58,7 +58,7 @@ body {
     width:192px;
 }
 
-.ppassword {
+#passwordIncorrect {
     position:relative;
     left:80px;
     bottom:40px;

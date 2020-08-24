@@ -7,21 +7,19 @@
     <title>RedBull || Login Page</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,100&display=swap" rel="stylesheet">
-    <script src="Javascript/mininal.js"></script>
+    <script src="Mininal.js"></script>
 </head>
 <body>
     <div class="Container">
         <div class="Login">
             <img src="Images/Heading.png" width="200px" height="100px">
             <hr>
-            <form name="login" method="post" id="Form">
-                <p id= class="pusername">Incorrect Username</p>
-                <input type="search" placeholder="Username">
-                <input type="password" placeholder="Password">
-                <p id="passwordIncorrect" class="ppassword">Incorrect Password</p>
-                <a href="Unlucky.html"><p class="Forgot">Forgot Password</p></a>
-                <button id="signin">Login </button>
-            </form>
+            <p id="usernameIncorrect">Incorrect Username</p>
+            <input type="search" placeholder="Username" id="Username">
+            <input type="password" placeholder="Password" id="Password">
+            <p id="passwordIncorrect">Incorrect Password</p>
+            <p class="Forgot"><a href="Unlucky.html">Forgot Password</a></p>
+            <button id="signin" onclick="formInvitation()">Login </button>
             <p class="Slogan">Sign in to get the most of Red Bull</p>
         </div>
         <div class="Image">

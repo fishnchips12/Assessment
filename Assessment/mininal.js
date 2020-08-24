@@ -1,14 +1,15 @@
-const Username = document.getElementById("Username");
-const Password = document.getElementById("Password");
-const form = document.getElementById("Form");
-const IncorrectUsername = document.getElementById("usernameIncorrect");
-const IncorrectPassword = document.getElementById("passwordIncorrect");
+function formInvitation() {
+    const Username = document.getElementById("Username").value;
+    const Password = document.getElementById("Password").value;
+    const IncorrectUsername = document.getElementById("usernameIncorrect");
+    const IncorrectPassword = document.getElementById("passwordIncorrect");
 
-
-form.addEventListener("submit", (e) => {
-    if (Username.value == null || Password.value == null) {
-        window.alert("yp");
-
+    if (Username != "admin" || Password != "admin") {
+        IncorrectPassword.style.visibility="visible";
+        IncorrectUsername.style.visibility="visible";
     }
-    
-})
+    else {
+        window.location.replace("Home.html");
+    }
+    return;
+}
