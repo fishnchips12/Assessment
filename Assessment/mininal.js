@@ -7,9 +7,8 @@ const IncorrectPassword = document.getElementById("passwordIncorrect");
 
 form.addEventListener("submit", (e) => {
     if (Username.value == null || Password.value == null) {
-        IncorrectUsername.style.visibility="visible";
-        IncorrectPassword.style.visibility="visible";
-        alert("yp");
+        window.alert("yp");
+
     }
     
 })
