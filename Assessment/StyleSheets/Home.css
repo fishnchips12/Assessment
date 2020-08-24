@@ -74,9 +74,36 @@ hr {
     right:110px;
 }
 
-.slideshow {
+.background {
     height:800px;
-    background-color:red;
     background-image:url("../Images/cool.jpg");
     background-size:100% 100%;
+}
+
+.video {
+    margin-top:50px;
+    margin-left:70px;
+    margin-right:70px;
+    background-color:ed;
+    height:900px;
+    border-style:solid;
+    border-color:rgb(221, 221, 221);
+}
+
+.video h1 {
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.box {
+    display:flex;
+    margin-top:60px;
+}
+
+.container_box {
+    width:300px;
+    height:300px;
+    float:left;
+    background-color:blue;
+    margin:auto;
 }
