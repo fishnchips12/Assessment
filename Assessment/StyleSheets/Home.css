@@ -7,7 +7,8 @@ body {
 .header {
     background-color:#001e3c;
     height:80px;
-    position:sticky;
+    position:fixed;
+    width:100%;
     top:0px;
 }
 
@@ -80,30 +81,111 @@ hr {
     background-size:100% 100%;
 }
 
+.imaginary {
+    width:700px;
+    height:20px;
+    float:right;
+}
+
+.imaginary p {
+    position:relative;
+    bottom:1600px;
+    right:130px;
+    font-size:60px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align:center;
+    color:white;
+    text-shadow: -1px -2px 1px #000, 1px -2px 1px #000, -1px 2px 1px #000, 1px 2px 1px #000;
+}
+
 .video {
     margin-top:50px;
     margin-left:70px;
     margin-right:70px;
-    background-color:ed;
-    height:900px;
-    border-style:solid;
-    border-color:rgb(221, 221, 221);
+    height:400px;
 }
 
 .video h1 {
     font-family: 'Fira Sans', sans-serif;
-
+    text-align:center;
 }
 
 .box {
-    display:flex;
-    margin-top:60px;
+    margin:auto;
+    height:350px;
+}
+
+
+.main_box {
+    width:1040px;
+    height:306px;
+    margin:auto;
+    background-color:geen;
 }
 
 .container_box {
     width:300px;
     height:300px;
     float:left;
-    background-color:blue;
+    background-color:rgb(206, 206, 206);
+    border-style:solid;
+    border-radius:25px;
     margin:auto;
+    margin-left:30px;
+    overflow:hidden;
+}
+
+.container_box img {
+    width:300px;
+    height:260px;
+}
+
+.container_box img:hover {
+    transform: scale(1.2);
+}
+
+.container_box p {
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:20px;
+}
+
+.film {
+    border-style:solid;
+    width:1000px;
+    height:400px;
+    margin:auto;
+}
+
+.text_on_film {
+    width:1000px;
+    height:400px;
+    font-family: 'PT Sans', sans-serif;
+    margin:auto;
+}
+
+.footer {
+    height:100px;
+    background-color:#001e3c;
+}
+
+.writing {
+    width:1300px;
+    height:20px;
+    margin:auto;
+    padding-top:40px;
+}
+
+.writing p {
+    float:left;
+    margin-top:0;
+    margin-right:40px;
+    margin-left:40px;
+    color:white;
+}
+
+.writing a {
+    text-decoration:none;
+    color:white;
 }
