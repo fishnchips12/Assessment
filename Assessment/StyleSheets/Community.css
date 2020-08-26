@@ -1,0 +1,188 @@
+body {
+    padding:0;
+    margin:0;
+    
+}
+
+.open {
+    width:100;
+    height:100vh;
+    animation:foreground 30s infinite;
+    animation-timing-function: linear;
+    
+}
+
+.welcome {
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+}
+
+.welcome span {
+    display:block;
+}
+
+.text1 {
+    font-size:60px;
+    font-weight:700;
+    letter-spacing:8px;
+    margin-bottom:20px;
+    position:relative;
+    animation:text 3s 1;
+    color:white;
+    text-shadow: -1px -2px 1px #000, 1px -2px 1px #000, -1px 2px 1px #000, 1px 2px 1px #000;
+    font-family: 'Russo One', sans-serif;
+}
+
+.text2 {
+    font-size:30px;
+    color:rgb(192, 0, 0);
+    font-family: 'Russo One', sans-serif;
+}
+
+@keyframes foreground {
+    0% {
+        background:white;
+        background-size:100% 100%;
+    }
+    20% {
+        background:url("../Images/cool.jpg");
+        background-size:100% 100%;
+    }
+    30% {
+        background:url("../Images/background1.jpg");
+        background-size:100% 100%;
+    }
+    45% {
+        background:url("../Images/background2.jpg");
+        background-size:100% 100%;
+    }
+    50% {
+        background:url("../Images/background3.jpg");
+        background-size:100% 100%;
+    }
+    80% {
+        background:url("../Images/download4.jpg");
+        background-size:100% 100%;
+    }
+    100%{
+        background:url("../Images/background5.jpg");
+        background-size:100% 100%;
+    }
+}
+
+@keyframes text {
+    0% {
+        margin-bottom:-40px;
+        background:white;
+    }
+    30% {
+        letter-spacing:25px;
+        margin-bottom:-40px;
+        background:white;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom:-40px;
+        background:white;
+    }
+}
+
+.main {
+    height:2000px;
+}
+
+.header {
+    height: 90px;
+    background-color:#001e3c;
+    position: -webkit-sticky;
+    position:sticky;
+    top:0;
+}
+
+.header h1 {
+    text-align:center;
+    position: relative;
+    padding:0;
+    margin:0px;
+    top:17px;
+    height:70px;
+    font-family: 'Acme', sans-serif;
+    color:rgb(192, 0, 0);
+}
+
+hr {
+    padding:0;
+    margin:0px;
+}
+.nav {
+    margin-top:10px;
+    height:30px;
+    background-color:gren;
+}
+
+.nav p {
+    padding:0;
+    position:relative;
+    bottom:50px;
+    margin:0;
+    margin-right:30px;
+    float:right;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.nav a {
+    text-decoration:none;
+    color:white;
+}
+
+.nav a {
+    text-decoration:none;
+    color:white;
+}
+
+@media only screen and (max-width:780px) {
+    .nav p{
+    position: relative;
+    bottom:20px;
+    text-align: center;
+    right:100px;
+    margin:0;
+    margin-right:30px;
+    float:right;
+
+    }
+}
+
+.bull_logo {
+    
+    height:20px;
+    width:20px;
+    margin:auto;
+}
+
+.bull_logo img {
+    position:relative;
+    bottom:92px;
+    right:110px;
+}
+
+.advertisement {
+    height:700px;
+    border-style:solid;
+    margin-top:60px;
+    margin-left:200px;
+    margin-right:200px;
+}
+
+.can {
+    margin-left:60px;
+    margin-top:30px;
+}
+
+.text {
+    transform:translateX(600px);
+}
