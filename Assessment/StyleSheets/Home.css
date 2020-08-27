@@ -10,6 +10,7 @@ body {
     position:fixed;
     width:100%;
     top:0px;
+    z-index: 1;
 }
 
 
@@ -22,6 +23,7 @@ body {
     height:70px;
     font-family: 'Acme', sans-serif;
     color:rgb(192, 0, 0);
+    
 }
 
 hr {
@@ -62,8 +64,7 @@ hr {
     }
 }
 
-.bull_logo {
-    
+.bull_logo { 
     height:20px;
     width:20px;
     margin:auto;
@@ -85,6 +86,7 @@ hr {
     width:700px;
     height:20px;
     float:right;
+   
 }
 
 .imaginary p {
@@ -96,6 +98,8 @@ hr {
     text-align:center;
     color:white;
     text-shadow: -1px -2px 1px #000, 1px -2px 1px #000, -1px 2px 1px #000, 1px 2px 1px #000;
+    
+
 }
 
 .video {
@@ -141,7 +145,7 @@ hr {
 }
 
 .container_box img:hover {
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 
 .container_box p {
