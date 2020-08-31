@@ -92,7 +92,7 @@ body {
 }
 
 .main {
-    height:2000px;
+    height:1700px;
 }
 
 .header {
@@ -209,4 +209,103 @@ hr {
     float:right;
     position:relative;
     bottom:70px;
+}
+
+@media only screen and (max-width:1200px) {
+    .text {
+        display:none;
+    }
+    .rating {
+        display:none;
+    }
+}
+
+.media {
+    background-color:r;
+    margin-top:100px;
+    height:350px;
+    margin-right:50px;
+    margin-left:50px;
+   
+}
+
+.media h1 {
+    text-align:center;
+    font-family: 'Russo One', sans-serif;
+    font-size:50px;
+    margin-top:70px;
+}
+
+.classify {
+    width:1050px;
+    height:150px;
+    background-color:geen;
+    margin:auto;
+}
+
+.media img {
+    width:150px;
+    height:150px;
+
+}
+
+.infile p {
+    font-family: 'Baloo Tamma 2', cursive;
+    padding:0;
+    margin:0;
+}
+
+.facebook {
+    width:50px;
+    height:10px;
+    position:relative;
+
+}
+
+.twitter {
+    width:50px;
+    height:10px;
+    position:relative;
+    left:450px;
+    bottom:10px;
+}
+
+.instagram {
+    width:50px;
+    height:10px;
+    position:relative;
+    left:900px;
+    bottom:20px;
+}
+
+hr {
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.footer {
+    height:100px;
+    background-color:#001e3c;
+    position:relative;
+    top:300px;
+}
+
+.place {
+    width:1300px;
+    height:20px;
+    margin:auto;
+    padding-top:40px;
+}
+
+.place p {
+    float:left;
+    margin-top:0;
+    margin-right:40px;
+    margin-left:40px;
+    color:white;
+}
+
+.place a {
+    text-decoration:none;
+    color:white;
 }

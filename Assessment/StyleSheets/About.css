@@ -7,7 +7,6 @@ body {
 .header {
     background-color:#001e3c;
     height:80px;
-    position:fixed;
     width:100%;
     top:0px;
 }
@@ -67,7 +66,6 @@ hr {
 }
 
 .bull_logo {
-    
     height:20px;
     width:20px;
     margin:auto;
@@ -77,4 +75,110 @@ hr {
     position:relative;
     bottom:92px;
     right:110px;
+}
+
+.buy {
+    background-color:rd;
+    height:550px;
+    width:600px;
+    margin:auto;
+}
+
+.buy img {
+    position:relative;
+    bottom:90px;
+    width:200px;
+
+}
+
+.buy h1 {
+    position:relative;
+    top:190px;
+    left:300px;
+    font-family: 'EB Garamond', serif;
+}
+
+.buy button {
+    position:relative;
+    bottom:250px;
+    left:120px;
+    width:200px;
+    height:60px;
+    font-size:20px;
+    font-family: 'Bebas Neue', cursive;
+    background-color:red;
+    color:white;
+    border-width:1px;
+}
+
+.buy button:hover {
+    cursor: pointer;
+}
+
+hr {
+    margin-top:40px;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.overview h1 {
+    text-align:center;
+    font-family: 'Alegreya SC', serif;
+}
+
+.body_text {
+    width:400px;
+    height:400px;
+    font-size:27px;
+    padding:5px;
+    margin:auto;
+    margin-top:15px;
+    border-style:solid;
+    border-radius:50px;
+    overflow: hidden;
+}
+
+.body_text p {
+    transform:translateX(-410px);
+}
+
+.body_text_1 {
+    background-image:url("../Images/imageman.png");
+    background-size:100% 100%;
+    
+}
+
+.body_text_2 {
+    background-image:url("../Images/moon.png");
+    background-size:100% 100%;
+}
+
+.body_text_3 {
+    background-image:url("../Images/firewatch.png");
+    background-size:100% 100%;
+}
+
+.body_text_1:hover > .textman1{
+    cursor: pointer;
+    transform:translateX(0px);
+    color:black;
+    
+}
+
+.body_text_2:hover > .textman2 {
+    cursor:pointer;
+    transform:translateX(0px);
+    color:black;
+    
+}
+
+.body_text_3:hover > .textman3 {
+    cursor:pointer;
+    transform:translateX(0px);
+    color:black;
+    
+}
+
+.body_text:hover {
+    background-image:url("../Images/white.png");
 }
