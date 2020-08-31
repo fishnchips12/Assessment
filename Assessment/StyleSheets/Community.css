@@ -101,6 +101,7 @@ body {
     position: -webkit-sticky;
     position:sticky;
     top:0;
+    z-index:1;
 }
 
 .header h1 {
@@ -139,9 +140,8 @@ hr {
     color:white;
 }
 
-.nav a {
-    text-decoration:none;
-    color:white;
+.com a {
+    color:red;
 }
 
 @media only screen and (max-width:780px) {
@@ -176,13 +176,37 @@ hr {
     margin-top:60px;
     margin-left:200px;
     margin-right:200px;
+    border-radius:70px;
 }
 
 .can {
     margin-left:60px;
-    margin-top:30px;
+}
+
+.writing {
+    width:300px;
+    float:right;
+}
+
+.rating {
+    position:relative;
+    top:270px;
+
 }
 
 .text {
-    transform:translateX(600px);
+    width:200px;
+    position:relative;
+    
+    
+}
+
+.p1 {
+    font-size:30px;
+}
+
+.p2 {
+    float:right;
+    position:relative;
+    bottom:70px;
 }

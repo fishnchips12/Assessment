@@ -49,6 +49,10 @@ hr {
     color:white;
 }
 
+.abo a {
+    color:red;
+}
+
 @media only screen and (max-width:780px) {
     .nav p{
     position: relative;

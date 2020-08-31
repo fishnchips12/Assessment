@@ -10,7 +10,7 @@ body {
     position:fixed;
     width:100%;
     top:0px;
-    z-index: 1;
+    z-index: 1; 
 }
 
 
@@ -49,6 +49,10 @@ hr {
 .nav a {
     text-decoration:none;
     color:white;
+}
+
+.hom a {
+    color:red;
 }
 
 @media only screen and (max-width:780px) {
