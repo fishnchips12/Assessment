@@ -1,3 +1,298 @@
 body {
+    padding:0;
+    margin:0;
+}
+
+.header {
+    background-color:#001e3c;
+    height:80px;
+    width:100%;
+    top:0px;
+    z-index: 1; 
+}
+
+
+.header h1 {
+    text-align:center;
+    position: relative;
+    padding:0;
+    margin:0px;
+    top:17px;
+    height:70px;
+    font-family: 'Acme', sans-serif;
+    color:rgb(192, 0, 0);
     
+}
+
+hr {
+    padding:0;
+    margin:0px;
+}
+.nav {
+    margin-top:10px;
+    height:30px;
+    background-color:gren;
+}
+
+.nav p {
+    padding:0;
+    position:relative;
+    bottom:50px;
+    margin:0;
+    margin-right:30px;
+    float:right;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.nav a {
+    text-decoration:none;
+    color:white;
+}
+
+.con a {
+    color:red;
+}
+
+@media only screen and (max-width:780px) {
+    .nav p{
+    position: relative;
+    bottom:20px;
+    text-align: center;
+    right:100px;
+    margin:0;
+    margin-right:30px;
+    float:right;
+
+    }
+}
+
+.bull_logo { 
+    height:20px;
+    width:20px;
+    margin:auto;
+}
+
+.bull_logo img {
+    position:relative;
+    bottom:92px;
+    right:110px;
+}
+
+.top {
+    background-image:url("https://images.ctfassets.net/lcr8qbvxj7mh/ogjVrA3AtNSdKwAXmJFvI/b60ceec0d83dea9e30742ee87db99efe/contact--stage--default-teaser_2x.jpg?w=1016&q=90&fm=jpg");
+    background-size:100% 100%;
+    
+}
+
+.contact {
+    margin-top:0;
+    margin-left:40px;
+    padding-top:60px;
+    height:320px;
+    color:white;
+    text-shadow: -1px -2px 1px #000, 1px -2px 1px #000, -1px 2px 1px #000, 1px 2px 1px #000;
+}
+
+.title {
+    font-size:50px;
+    margin-left:40px;
+    position:relative;
+    bottom:280px;
+    color:white;
+    text-shadow: -1px -2px 1px #000, 1px -2px 1px #000, -1px 2px 1px #000, 1px 2px 1px #000;
+}
+
+.title h1 {
+    margin:0;
+    padding:0;
+}
+
+.paragraph {
+    width:300px;
+    position:relative;
+    margin-left:40px;
+    bottom:290px;
+    color:white;
+    text-shadow: -1px -2px 1px #000, 1px -2px 1px #000, -1px 2px 1px #000, 1px 2px 1px #000;
+    font-size:20px;
+}
+
+.yo {
+    position:relative;
+    margin-left:40px;
+    bottom:280px;
+    
+}
+
+.top a {
+    text-decoration:underline;
+    color:white;
+}
+
+.checkbox {
+    width:300px;
+    background-color:green;
+    margin:auto;
+}
+
+.checkbox select{
+    width:300px;
+    height:40px;
+    font-size:15px;
+}
+
+.none {
+    width:60px;
+    height:20px;
+    float:right;
+    margin-right:50px;
+}
+
+.none img {
+    visibility:hidden;
+    margin:0;
+    padding:0;
+    width:100px;
+    height:100px;
+    
+}
+
+.none:hover > img{
+    visibility:visible;
+}
+
+.torso {
+    width:1200px;
+    height:2000px;
+    background-color:rd;
+    margin:auto;
+}
+
+.container {
+    border-style:solid;
+}
+
+.container1 {
+    width:350px;
+    height:600px;
+    margin-left:50px;
+    position:relative;
+    top:50px;
+}
+
+.heading {
+    text-align:center;
+}
+
+.heading h1 {
+    margin:0;
+    margin-top:10px;
+    font-size:45px;
+    padding:0;
+    
+}
+
+.heading h3 {
+    margin:0;
+    font-size:25px;
+    padding:0;
+}
+
+.heading p {
+    margin-right:20px;
+    margin-left:20px;
+}
+
+.navigating {
+    margin:auto;
+    width:190px;
+}
+
+.navigating button {
+    width:190px;
+    height:40px;
+    margin-top:30px;
+    border-style:solid;
+    border-radius:15px;
+    background-color:red;
+    color:white;
+}
+
+.navigating button:hover {
+    cursor:pointer;
+}
+
+.final {
+    padding-top:20px;
+    width:150px;
+    margin:auto;
+}
+
+.final p {
+    text-align:center;
+}
+
+.final button {
+    width:150px;
+}
+
+
+.container2 {
+    width:650px;
+    height:260px;
+    position:relative;
+    left:490px;
+    bottom:556px;
+}
+
+.icon {
+    position:relative;
+    top:20px;
+    left:50px;
+}
+
+.motor {
+    position:relative;
+    left:330px;
+    bottom:235px;
+}
+
+.container2 p {
+    position:relative;
+    bottom:230px;
+    left:365px;
+    font-size:25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container3 {
+    width:650px;
+    height:250px;
+    position:relative;
+    left:490px;
+    bottom:472px;
+}
+
+.container4 {
+    width:1090px;
+    height:300px;
+    position:relative;
+    left:50px;
+    bottom:400px;
+}
+
+.container5 {
+    width:490px;
+    height:490px;
+    position:relative;
+    bottom:320px;
+    left:50px;
+}
+
+.container6 {
+    width:490px;
+    height:490px;
+    position:relative;
+    left:650px;
+    bottom:816px;
 }

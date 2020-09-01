@@ -7,6 +7,7 @@ function formInvitation() {
     if (Username != "admin" || Password != "admin") {
         IncorrectPassword.style.visibility="visible";
         IncorrectUsername.style.visibility="visible";
+        alert("Yo wrong");
     }
     else {
         window.location.replace("Home.html");
