@@ -1,6 +1,8 @@
 body {
     padding:0;
     margin:0;
+    overflow-x:hidden;
+    
 }
 
 .header {
@@ -163,7 +165,7 @@ hr {
 
 .torso {
     width:1200px;
-    height:2000px;
+    height:2550px;
     background-color:rd;
     margin:auto;
 }
@@ -206,6 +208,7 @@ hr {
 .navigating {
     margin:auto;
     width:190px;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .navigating button {
@@ -220,6 +223,10 @@ hr {
 
 .navigating button:hover {
     cursor:pointer;
+}
+
+.navigating a{
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .final {
@@ -273,12 +280,67 @@ hr {
     bottom:472px;
 }
 
+.tweet {
+    position:relative;
+    left:50px;
+    top:20px;
+    border-radius:20px;
+}
+
+.container3 p {
+    position:relative;
+    bottom:230px;
+    left:365px;
+    font-size:25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.bike {
+    position:relative;
+    left:330px;
+    bottom:235px;
+}
+
 .container4 {
     width:1090px;
     height:300px;
     position:relative;
     left:50px;
     bottom:400px;
+    background-size:100% 100%;
+    background-image:url("../Images/vxcv.jpg");
+    cursor:pointer;
+}
+
+.container4:hover {
+    position:relative;
+    height:1000px;
+    background-image:url("../Images/zxcbcdb.png");
+    
+}
+
+.container4:hover ~ .container8 {
+    visibility:hidden;
+}
+
+.container4 h1 {
+    position:relative;
+    left:380px;
+    top:40px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container4 img {
+    position: relative;
+    left:660px;
+    bottom:60px;
+    border-radius:40px;
+} 
+
+.container4 p {
+    position:relative;
+    left:435px;
+    bottom:120px;
 }
 
 .container5 {
@@ -287,6 +349,7 @@ hr {
     position:relative;
     bottom:320px;
     left:50px;
+    overflow:scroll;
 }
 
 .container6 {
@@ -294,5 +357,101 @@ hr {
     height:490px;
     position:relative;
     left:650px;
-    bottom:816px;
+    bottom:1664px;
+    overflow:scroll;
+}
+
+.mp h1 {
+    text-align:center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.mp hr {
+    margin-left:60px;
+    margin-right:60px;
+}
+
+.mp h3 {
+    margin:0;
+    margin-top:20px;
+    margin-left:30px;
+    
+}
+
+.mp p {
+    margin:0;
+    margin-left:30px;
+}
+
+.container7 {
+    width:490px;
+    height:490px;
+    position:relative;
+    bottom:310px;
+    left:350px;
+    
+}
+
+.container7 h1{
+    text-align:center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container7 input {
+    width:490px;
+    height:60px;
+    font-size:30px;
+}
+
+.container7 button {
+    margin-left:170px;
+    margin-top:10px;
+    width:160px;
+    height:40px;
+    background-color:red;
+    color:white;
+}
+
+.container7 button:hover {
+    cursor:pointer;
+}
+
+.container8 {
+    width:337px;
+    height:337px;
+    position:relative;
+    bottom:400px;
+    left:430px;
+    background-color:red;
+}
+
+.container8 img {
+    width:337px;
+    height:337px;
+
+}
+
+.footer {
+    height:100px;
+    background-color:#001e3c;
+}
+
+.place {
+    width:1300px;
+    height:20px;
+    margin:auto;
+    padding-top:40px;
+}
+
+.place p {
+    float:left;
+    margin-top:0;
+    margin-right:40px;
+    margin-left:40px;
+    color:white;
+}
+
+.place a {
+    text-decoration:none;
+    color:white;
 }
